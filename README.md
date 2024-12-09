@@ -8,8 +8,11 @@ Después de haber creado el workspace, con distintas carpetas (repositorios), in
 * Para cargar las bases de datos desde QGIS, es necesario crear una nueva conexión desde el panel navegador y completar los parámetros (usuario, clave y nombre de la base de datos). Luego se pueden agregar los archivos desde el respectivo directorio. Cuando refrescamos en pgAdmin podremos visualizarlo.
 
 * Filtrado de atributos dentro del query tool de PostgreSQL:
+Vamos a trabajar con el geodataframe de radios
     * ```SELECT *```
     * ```FROM -columna-``` 
     * ```ORDER BY ST_Area(geom) # ordena en función del tamaño (geom)``` 
     * ```DESC; # en orden descendente```
-* 
+
+    * ```SELECT```
+    * ```FROM 
