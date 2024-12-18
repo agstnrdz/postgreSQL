@@ -9,18 +9,18 @@ Después de haber creado el workspace, con distintas carpetas (repositorios), in
 
 * Filtrado de atributos dentro del query tool de PostgreSQL:
 Vamos a trabajar con el geodataframe de radios
-    * ```ruby
+    ```ruby
     SELECT *
     ```
-    * ```ruby
+    ```ruby
     FROM -columna-
     ```
-    * ```ruby
+    ```ruby
     ORDER BY ST_Area(geom) # ordena en función del tamaño (geom)
     ```
-    * ```ruby
+    ```ruby
     DESC; # en orden descendente
     ```
 
-    * ```SELECT```
-    * ```FROM 
+    ```SELECT```
+    ```FROM 
