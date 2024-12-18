@@ -11,16 +11,12 @@ Después de haber creado el workspace, con distintas carpetas (repositorios), in
 Vamos a trabajar con el geodataframe de radios
     ```ruby
     SELECT *
-    ```
-    ```ruby
     FROM -columna-
-    ```
-    ```ruby
     ORDER BY ST_Area(geom) # ordena en función del tamaño (geom)
-    ```
-    ```ruby
     DESC; # en orden descendente
     ```
 
-    ```SELECT```
-    ```FROM 
+    ```ruby
+    SELECT sum(columna) # pido la suma del campo
+    FROM barrios # tabla barrios
+    ```
