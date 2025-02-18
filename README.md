@@ -19,3 +19,4 @@ Después de haber creado el workspace con distintas carpetas (repositorios), ini
     SELECT sum(columna) # pido la suma del campo
     FROM barrios # tabla barrios
     ```
+    Futuras actualizaciones
